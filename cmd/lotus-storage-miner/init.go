@@ -285,7 +285,7 @@ func createStorageMiner(ctx context.Context, api api.FullNode, peerid peer.ID, c
 	}
 
 	createStorageMinerMsg := &types.Message{
-		To:    actors.StorageMarketAddress,
+		To:    actors.StoragePowerAddress,
 		From:  owner,
 		Value: collateral,
 
